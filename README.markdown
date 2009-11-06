@@ -14,6 +14,14 @@ You can include `MPTidbits` in your project by simply copying all five source fi
 
 	#import "MPTidbits.h"
 
+### Useful Functions ###
+
+These functions can be found in `MPFunctions.h`.
+
+* `NSString *MPHexStringFromBytes(void *bytes, NSUInteger len)`
+
+	Returns a hexadecimal `NSString` representation of the data referenced by `bytes`. `len` should be the length of the data (the number of bytes).
+
 ### `NSString` Methods ###
 
 These methods can be found in `NSString+MPTidbits.h`.
